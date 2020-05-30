@@ -2,4 +2,4 @@
 # Members:
 - Phan Huynh Thien Huu
 - Tran Cong Tan
--Nguyen Hoang Dat
+- Nguyen Hoang Dat
