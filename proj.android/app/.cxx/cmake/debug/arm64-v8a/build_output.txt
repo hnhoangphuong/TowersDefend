@@ -1,0 +1,10 @@
+using toolchain file:/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+PROJECT_NAME:TowersDefend
+PROJECT_SOURCE_DIR:/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend
+COCOS2DX_ROOT_PATH:/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d
+CMAKE_MODULE_PATH:/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cmake/Modules/
+PROJECT_BINARY_DIR:/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a
+ENGINE_BINARY_PATH:/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a/engine
+CMAKE_GENERATOR: Ninja
+CMAKE_BUILD_TYPE: Debug
+Configuring done
