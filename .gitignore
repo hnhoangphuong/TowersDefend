@@ -70,7 +70,7 @@ cocos2d/cocos/platform/android/java/res/
 .metadata/
 .recommenders/
 
-# proj.android-studio
+# proj.android
 .idea/
 *.a
 *.iml
