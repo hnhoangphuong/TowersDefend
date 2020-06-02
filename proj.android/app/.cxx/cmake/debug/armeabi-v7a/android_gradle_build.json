@@ -447,6 +447,21 @@
           "workingDirectoryOrdinal": 0
         },
         {
+          "src": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/SplashScene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/MenuScene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/GameScene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
           "src": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/jni/hellocpp/main.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
@@ -458,7 +473,15 @@
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/HelloWorldScene.h",
+          "header": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/SplashScene.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/MenuScene.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/Classes/GameScene.h",
           "workingDirectoryOrdinal": 0
         }
       ],

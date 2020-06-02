@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libext_clipper.a"
+			"path" : "lib/libext_tinyxml2.a"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +18,7 @@
 		],
 		"files" : 
 		[
-			"cocos2d/external/clipper/CMakeLists.txt",
+			"cocos2d/external/tinyxml2/CMakeLists.txt",
 			"cocos2d/cocos/editor-support/spine/CMakeLists.txt",
 			"cocos2d/cocos/CMakeLists.txt"
 		],
@@ -30,7 +30,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 8,
+				"line" : 12,
 				"parent" : 0
 			},
 			{
@@ -55,7 +55,7 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 12,
+				"line" : 16,
 				"parent" : 0
 			}
 		]
@@ -66,7 +66,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
+					"fragment" : "-O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
 				},
 				{
 					"fragment" : "-std=gnu++11"
@@ -80,7 +80,7 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/external/clipper/."
+					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/external/tinyxml2/."
 				}
 			],
 			"language" : "CXX",
@@ -94,13 +94,13 @@
 	{
 		"name" : "External"
 	},
-	"id" : "ext_clipper::@33abc919e86db66c28b8",
-	"name" : "ext_clipper",
-	"nameOnDisk" : "libext_clipper.a",
+	"id" : "ext_tinyxml2::@fd6ab661f4ee25a21ef0",
+	"name" : "ext_tinyxml2",
+	"nameOnDisk" : "libext_tinyxml2.a",
 	"paths" : 
 	{
-		"build" : "engine/external/clipper",
-		"source" : "cocos2d/external/clipper"
+		"build" : "engine/external/tinyxml2",
+		"source" : "cocos2d/external/tinyxml2"
 	},
 	"sourceGroups" : 
 	[
@@ -117,7 +117,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "cocos2d/external/clipper/clipper.cpp",
+			"path" : "cocos2d/external/tinyxml2/tinyxml2.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

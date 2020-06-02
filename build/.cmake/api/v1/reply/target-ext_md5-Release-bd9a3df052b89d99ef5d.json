@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libext_tinyxml2.a"
+			"path" : "lib/libext_md5.a"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +18,7 @@
 		],
 		"files" : 
 		[
-			"cocos2d/external/tinyxml2/CMakeLists.txt",
+			"cocos2d/external/md5/CMakeLists.txt",
 			"cocos2d/cocos/editor-support/spine/CMakeLists.txt",
 			"cocos2d/cocos/CMakeLists.txt"
 		],
@@ -66,10 +66,10 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
+					"fragment" : "-O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
 				},
 				{
-					"fragment" : "-std=gnu++11"
+					"fragment" : "-std=gnu99"
 				}
 			],
 			"includes" : 
@@ -80,10 +80,10 @@
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/external/tinyxml2/."
+					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/external/md5/.."
 				}
 			],
-			"language" : "CXX",
+			"language" : "C",
 			"sourceIndexes" : 
 			[
 				0
@@ -94,13 +94,13 @@
 	{
 		"name" : "External"
 	},
-	"id" : "ext_tinyxml2::@fd6ab661f4ee25a21ef0",
-	"name" : "ext_tinyxml2",
-	"nameOnDisk" : "libext_tinyxml2.a",
+	"id" : "ext_md5::@82bef7d6fa8c2aa61808",
+	"name" : "ext_md5",
+	"nameOnDisk" : "libext_md5.a",
 	"paths" : 
 	{
-		"build" : "engine/external/tinyxml2",
-		"source" : "cocos2d/external/tinyxml2"
+		"build" : "engine/external/md5",
+		"source" : "cocos2d/external/md5"
 	},
 	"sourceGroups" : 
 	[
@@ -117,7 +117,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "cocos2d/external/tinyxml2/tinyxml2.cpp",
+			"path" : "cocos2d/external/md5/md5.c",
 			"sourceGroupIndex" : 0
 		}
 	],

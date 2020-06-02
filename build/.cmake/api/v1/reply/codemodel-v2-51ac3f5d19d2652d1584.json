@@ -361,7 +361,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -658,91 +658,91 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TowersDefend::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TowersDefend-Debug-d77c7682216934822239.json",
+					"jsonFile" : "target-TowersDefend-Release-4e2459fd07db81d47fcc.json",
 					"name" : "TowersDefend",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "cocos2d::@b17589fc6237857a1771",
-					"jsonFile" : "target-cocos2d-Debug-79860a1b1825724f4d77.json",
+					"jsonFile" : "target-cocos2d-Release-54767a91932f3f7980b5.json",
 					"name" : "cocos2d",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 17,
 					"id" : "ext_clipper::@33abc919e86db66c28b8",
-					"jsonFile" : "target-ext_clipper-Debug-b51674e5101f24e967c5.json",
+					"jsonFile" : "target-ext_clipper-Release-135607da69f835857e28.json",
 					"name" : "ext_clipper",
 					"projectIndex" : 16
 				},
 				{
 					"directoryIndex" : 19,
 					"id" : "ext_convertUTF::@205c2f0e44a3b06b9b59",
-					"jsonFile" : "target-ext_convertUTF-Debug-f499c1c24143ce62d0ca.json",
+					"jsonFile" : "target-ext_convertUTF-Release-450064ae5f8cb234cec3.json",
 					"name" : "ext_convertUTF",
 					"projectIndex" : 18
 				},
 				{
 					"directoryIndex" : 18,
 					"id" : "ext_edtaa3func::@f3d42e550923b89477b0",
-					"jsonFile" : "target-ext_edtaa3func-Debug-de988b3182eae3fc8eaa.json",
+					"jsonFile" : "target-ext_edtaa3func-Release-25d1c83b8a06b25b556a.json",
 					"name" : "ext_edtaa3func",
 					"projectIndex" : 17
 				},
 				{
 					"directoryIndex" : 21,
 					"id" : "ext_md5::@82bef7d6fa8c2aa61808",
-					"jsonFile" : "target-ext_md5-Debug-e42c5fc02193e1fe5e5e.json",
+					"jsonFile" : "target-ext_md5-Release-bd9a3df052b89d99ef5d.json",
 					"name" : "ext_md5",
 					"projectIndex" : 20
 				},
 				{
 					"directoryIndex" : 20,
 					"id" : "ext_poly2tri::@ce0bfd23a4070be0c5de",
-					"jsonFile" : "target-ext_poly2tri-Debug-c006c339697e9e243bf4.json",
+					"jsonFile" : "target-ext_poly2tri-Release-2f2f98414e28c9ce62da.json",
 					"name" : "ext_poly2tri",
 					"projectIndex" : 19
 				},
 				{
 					"directoryIndex" : 6,
 					"id" : "ext_recast::@49aedbc985f97720d891",
-					"jsonFile" : "target-ext_recast-Debug-dd5411e69cd26abd64e5.json",
+					"jsonFile" : "target-ext_recast-Release-67f6532a9ca627fa221d.json",
 					"name" : "ext_recast",
 					"projectIndex" : 5
 				},
 				{
 					"directoryIndex" : 14,
 					"id" : "ext_tinyxml2::@fd6ab661f4ee25a21ef0",
-					"jsonFile" : "target-ext_tinyxml2-Debug-1db45f62a376817e73cd.json",
+					"jsonFile" : "target-ext_tinyxml2-Release-d92d21024b2cf5a38b69.json",
 					"name" : "ext_tinyxml2",
 					"projectIndex" : 13
 				},
 				{
 					"directoryIndex" : 26,
 					"id" : "ext_unzip::@05a8bf1aba81c1a16e64",
-					"jsonFile" : "target-ext_unzip-Debug-c57580b9d5d5926784fa.json",
+					"jsonFile" : "target-ext_unzip-Release-1c0071ec9fdf182ef96a.json",
 					"name" : "ext_unzip",
 					"projectIndex" : 25
 				},
 				{
 					"directoryIndex" : 15,
 					"id" : "ext_xxhash::@11e20b8b9139209a045a",
-					"jsonFile" : "target-ext_xxhash-Debug-27531cae68b03e571978.json",
+					"jsonFile" : "target-ext_xxhash-Release-7cbd358793c50c346008.json",
 					"name" : "ext_xxhash",
 					"projectIndex" : 14
 				},
 				{
 					"directoryIndex" : 16,
 					"id" : "ext_xxtea::@95546a4b2abc077b0042",
-					"jsonFile" : "target-ext_xxtea-Debug-ad4d3283e70468d924bb.json",
+					"jsonFile" : "target-ext_xxtea-Release-1fe18e571f1c54041349.json",
 					"name" : "ext_xxtea",
 					"projectIndex" : 15
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "external::@62470bbe2074d04a1904",
-					"jsonFile" : "target-external-Debug-39b0f57d2d293763273a.json",
+					"jsonFile" : "target-external-Release-fc67080375d99d40a219.json",
 					"name" : "external",
 					"projectIndex" : 1
 				}

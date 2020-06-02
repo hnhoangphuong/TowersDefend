@@ -54,12 +54,6 @@
 			{
 				"command" : 2,
 				"file" : 1,
-				"line" : 93,
-				"parent" : 3
-			},
-			{
-				"command" : 2,
-				"file" : 1,
 				"line" : 96,
 				"parent" : 3
 			},
@@ -77,13 +71,13 @@
 			},
 			{
 				"file" : 2,
-				"parent" : 7
+				"parent" : 6
 			},
 			{
 				"command" : 4,
 				"file" : 2,
 				"line" : 1,
-				"parent" : 8
+				"parent" : 7
 			},
 			{
 				"command" : 7,
@@ -95,13 +89,13 @@
 				"command" : 6,
 				"file" : 3,
 				"line" : 91,
-				"parent" : 10
+				"parent" : 9
 			},
 			{
 				"command" : 4,
 				"file" : 3,
 				"line" : 26,
-				"parent" : 11
+				"parent" : 10
 			},
 			{
 				"command" : 8,
@@ -117,7 +111,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
+					"fragment" : "-O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
 				},
 				{
 					"fragment" : "-std=gnu++11"
@@ -126,46 +120,42 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 4,
-					"define" : "COCOS2D_DEBUG=1"
-				},
-				{
 					"backtrace" : 2,
 					"define" : "LWS_WITH_LIBUV"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"define" : "USE_FILE32API"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"define" : "__APPLE__"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cocos/editor-support"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"path" : "/System/Library/Frameworks"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cocos"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/extensions"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cocos/platform"
 				},
 				{
@@ -851,7 +841,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
+					"fragment" : "-O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk  "
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -860,46 +850,42 @@
 			"defines" : 
 			[
 				{
-					"backtrace" : 4,
-					"define" : "COCOS2D_DEBUG=1"
-				},
-				{
 					"backtrace" : 2,
 					"define" : "LWS_WITH_LIBUV"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 4,
 					"define" : "USE_FILE32API"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 5,
 					"define" : "__APPLE__"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 9,
+					"backtrace" : 8,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cocos/editor-support"
 				},
 				{
-					"backtrace" : 12,
+					"backtrace" : 11,
 					"path" : "/System/Library/Frameworks"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cocos"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/extensions"
 				},
 				{
-					"backtrace" : 13,
+					"backtrace" : 12,
 					"path" : "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/cocos2d/cocos/platform"
 				},
 				{

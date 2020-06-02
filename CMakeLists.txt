@@ -50,12 +50,16 @@ endif()
 list(APPEND GAME_SOURCE
      Classes/AppDelegate.cpp
      Classes/HelloWorldScene.cpp
+     Classes/SplashScene.cpp
+     Classes/MenuScene.cpp
+     Classes/GameScene.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
-     Classes/HelloWorldScene.h
+     Classes/SplashScene.h
+     Classes/MenuScene.h
+     Classes/GameScene.h
      )
-
 if(ANDROID)
     # change APP_NAME to the share library name for Android, it's value depend on AndroidManifest.xml
     set(APP_NAME MyGame)
