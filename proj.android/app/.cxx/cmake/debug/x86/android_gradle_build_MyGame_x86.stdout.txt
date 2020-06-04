@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/x86'
-ninja: no work to do.

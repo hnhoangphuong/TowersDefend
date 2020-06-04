@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-ninja: Entering directory `/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/armeabi-v7a'
-ninja: no work to do.
-=======
-ninja: Entering directory `/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/armeabi-v7a'
-[1/2] Building CXX object CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o
-[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libMyGame.so
->>>>>>> 472ac430e28066a6a86b277600e89727a701144d
