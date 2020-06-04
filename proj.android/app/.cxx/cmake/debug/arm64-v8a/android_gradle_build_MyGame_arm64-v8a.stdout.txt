@@ -1,2 +1,8 @@
-ninja: Entering directory `/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a'
+<<<<<<< HEAD
+ninja: Entering directory `/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a'
 ninja: no work to do.
+=======
+ninja: Entering directory `/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libMyGame.so
+>>>>>>> 472ac430e28066a6a86b277600e89727a701144d

@@ -1,7 +1,7 @@
 Executable : /Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 arguments : 
 -C
-/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/armeabi-v7a
+/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/armeabi-v7a
 MyGame
 jvmArgs : 
 

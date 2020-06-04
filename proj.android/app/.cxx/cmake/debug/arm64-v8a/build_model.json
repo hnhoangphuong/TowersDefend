@@ -5,9 +5,9 @@
     "environmentVariables": []
   },
   "cmake": {
-    "cmakeArtifactsBaseFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
-    "cmakeServerLogFile": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
-    "cmakeWrappingBaseFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cxx/debug/arm64-v8a",
+    "cmakeArtifactsBaseFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
+    "cmakeServerLogFile": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a/cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cxx/debug/arm64-v8a",
     "effectiveConfiguration": {
       "name": "traditional-android-studio-cmake-environment",
       "description": "Composite reified CMakeSettings configuration",
@@ -15,7 +15,7 @@
       "inheritEnvironments": [
         "ndk"
       ],
-      "buildRoot": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
+      "buildRoot": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
       "cmakeToolchain": "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
       "cmakeExecutable": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake",
       "variables": [
@@ -57,7 +57,7 @@
         },
         {
           "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
-          "value": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/build/intermediates/cmake/debug/obj/arm64-v8a"
+          "value": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/build/intermediates/cmake/debug/obj/arm64-v8a"
         },
         {
           "name": "CMAKE_MAKE_PROGRAM",
@@ -86,14 +86,14 @@
       ]
     }
   },
-  "cxxBuildFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
+  "cxxBuildFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
   "info": {
     "abi": "ARM64_V8A",
     "bitness": 64,
     "deprecated": false,
     "default": true
   },
-  "originalCxxBuildFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
+  "originalCxxBuildFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a",
   "variant": {
     "buildSystemArgumentList": [
       "-DCMAKE_FIND_ROOT_PATH\u003d",
@@ -118,12 +118,12 @@
         "ninjaExe": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja"
       },
       "cmakeToolchainFile": "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
-      "cxxFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx",
+      "cxxFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx",
       "gradleModulePathName": ":TowersDefend",
-      "intermediatesFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/build/intermediates",
-      "makeFile": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/CMakeLists.txt",
-      "moduleBuildFile": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/build.gradle",
-      "moduleRootFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app",
+      "intermediatesFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/build/intermediates",
+      "makeFile": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/CMakeLists.txt",
+      "moduleBuildFile": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/build.gradle",
+      "moduleRootFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
@@ -186,12 +186,12 @@
       ],
       "ndkVersion": "21.1.6352462",
       "project": {
-        "compilerSettingsCacheFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/.cxx",
-        "cxxFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/.cxx",
+        "compilerSettingsCacheFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/.cxx",
+        "cxxFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/.cxx",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
-        "rootBuildGradleFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android",
+        "rootBuildGradleFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android",
         "sdkFolder": "/Users/imac_vtca/Library/Android/sdk"
       },
       "splitsAbiFilterSet": [],
@@ -207,11 +207,12 @@
         "SYSTEM": {}
       }
     },
-    "objFolder": "/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/build/intermediates/cmake/debug/obj",
+    "objFolder": "/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/build/intermediates/cmake/debug/obj",
     "variantName": "debug",
     "validAbiList": [
       "ARMEABI_V7A",
-      "ARM64_V8A"
+      "ARM64_V8A",
+      "X86"
     ]
   }
 }

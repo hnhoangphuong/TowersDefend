@@ -376,7 +376,7 @@ rule CXX_STATIC_LIBRARY_LINKER__cpp_android_spec
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend -B/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a
+  command = /Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake -H/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend -B/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a
   description = Re-running CMake...
   generator = 1
 

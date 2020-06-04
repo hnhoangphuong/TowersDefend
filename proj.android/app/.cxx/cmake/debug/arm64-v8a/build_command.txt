@@ -1,6 +1,6 @@
 Executable : /Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake
 arguments : 
--H/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend
+-H/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend
 -DCMAKE_CXX_FLAGS=-frtti -fexceptions -fsigned-char
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
@@ -10,14 +10,14 @@ arguments :
 -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
 -DCMAKE_ANDROID_NDK=/Users/imac_vtca/Library/Android/sdk/ndk-bundle
 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/build/intermediates/cmake/debug/obj/arm64-v8a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/build/intermediates/cmake/debug/obj/arm64-v8a
 -DCMAKE_MAKE_PROGRAM=/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
 -DCMAKE_SYSTEM_NAME=Android
 -DCMAKE_SYSTEM_VERSION=16
 -DANDROID_STL=c++_static
 -DANDROID_TOOLCHAIN=clang
 -DANDROID_ARM_NEON=TRUE
--B/Users/imac_vtca/Desktop/GD18_NguyenHoangDat/Project/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a
+-B/Users/imac_vtca/Documents/tan_gd18/Projects/TowersDefend/proj.android/app/.cxx/cmake/debug/arm64-v8a
 -GNinja
 jvmArgs : 
 
