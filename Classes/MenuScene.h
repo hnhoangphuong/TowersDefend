@@ -8,7 +8,7 @@ public:
 
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
-    bool PlayClick(cocos2d::Touch* touch, cocos2d::Event* event);
+    void PlayClick(cocos2d::Ref* pSender);
     // implement the "static create()" method manually
     CREATE_FUNC(MenuScene);
 };

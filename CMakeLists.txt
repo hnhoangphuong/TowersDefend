@@ -53,12 +53,14 @@ list(APPEND GAME_SOURCE
      Classes/SplashScene.cpp
      Classes/MenuScene.cpp
      Classes/GameScene.cpp
+     Classes/Creep.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
      Classes/SplashScene.h
      Classes/MenuScene.h
      Classes/GameScene.h
+     Classes/Creep.h
      )
 if(ANDROID)
     # change APP_NAME to the share library name for Android, it's value depend on AndroidManifest.xml

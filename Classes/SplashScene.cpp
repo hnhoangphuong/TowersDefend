@@ -1,5 +1,4 @@
 #include "SplashScene.h"
-#include "MenuScene.h"
 #include "SimpleAudioEngine.h"
 
 USING_NS_CC;
@@ -98,7 +97,7 @@ bool Splash::init()
 
 void Splash::goToMainMenu(float dt)
 {
-    Scene* scene = MenuScene::createScene();
+    Scene* scene = GameScene::createScene();
     TransitionFade* transition = TransitionFade::create(0.2, scene);
     Director::getInstance()->replaceScene(transition);
 }

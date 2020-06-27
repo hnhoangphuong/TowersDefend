@@ -38,22 +38,20 @@ bool MenuScene::init()
         "CloseNormal.png",
         "CloseSelected.png",
         CC_CALLBACK_1(MenuScene::menuCloseCallback, this));
-
-    if (closeItem == nullptr ||
-        closeItem->getContentSize().width <= 0 ||
-        closeItem->getContentSize().height <= 0)
-    {
-        problemLoading("'CloseNormal.png' and 'CloseSelected.png'");
-    }
-    else
-    {
+    auto playBt=MenuItemImage::create("blue_button11.png","blue_button12.png",CC_CALLBACK_1(MenuScene::PlayClick,this));
+    playBt->setPosition(Vec2(visibleSize.height/2,visibleSize.width/2));
+    
+  
         float x = origin.x + visibleSize.width - closeItem->getContentSize().width / 2;
         float y = origin.y + closeItem->getContentSize().height / 2;
         closeItem->setPosition(Vec2(x, y));
-    }
-
+    
+    
     // create menu, it's an autorelease object
-    auto menu = Menu::create(closeItem, NULL);
+    auto menu2=Menu::create(playBt,NULL);
+    menu2->setPosition(Vec2::ZERO);
+    this->addChild(menu2,1);
+    auto menu = Menu::create(closeItem,NULL);
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
 
@@ -79,23 +77,11 @@ bool MenuScene::init()
     }
 
     // add "Splash" splash screen"
-    auto sprite = Sprite::create("play-button-overlay.png");
-    if (sprite == nullptr)
-    {
-        problemLoading("'play-button-overlay.png'");
-    }
-    else
-    {
-        // position the sprite on the center of the screen
-        sprite->setPosition(Vec2(visibleSize.width / 2 + origin.x, visibleSize.height / 2 + origin.y));
 
-        // add the sprite as a child to this layer
-        this->addChild(sprite, 0);
-    }
-
-    auto TouchListener = EventListenerTouchOneByOne::create();
+   /* auto TouchListener = EventListenerTouchOneByOne::create();
     TouchListener->onTouchBegan = CC_CALLBACK_2(MenuScene::PlayClick, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(TouchListener,this);
+    */
     return true;
 }
 
@@ -110,9 +96,8 @@ void MenuScene::menuCloseCallback(Ref* pSender)
     //EventCustom customEndEvent("game_scene_close_event");
     //_eventDispatcher->dispatchEvent(&customEndEvent);
 }
-bool MenuScene::PlayClick(cocos2d::Touch* touch, cocos2d::Event* event)
+void MenuScene::PlayClick(Ref* pSender)
 {
     auto mnsc = GameScene::createScene();
     Director::getInstance()->replaceScene(mnsc);
-    return true;
 }

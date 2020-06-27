@@ -2,6 +2,7 @@
 #ifndef __SPLASH_SCENE_H__
 #define __SPLASH_SCENE_H__
 #include "cocos2d.h"
+#include "GameScene.h"
 class Splash : public cocos2d::Scene
 {
 public:
