@@ -1,26 +1,28 @@
 #ifndef __GAME_SCENE_H__
 #define __GAME_SCENE_H__
 
-#include "cocos2d.h"
-#include "Creep.h"
-class GameScene : public cocos2d::Scene
+#include "CObject.h"
+#include "CScene.h"
+#include "Enemy.h"
+
+class GameScene : public CScene
 {
 private:
-
     cocos2d::Sprite* spriteBall;
-
-    
+    float time=1;
+    float fps=0;
 public:
-    static cocos2d::Scene* createScene();
+    static CScene* createScene();
+  
     virtual bool init();
-
-    // a selector callback
+    bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
+    
     void menuCloseCallback(cocos2d::Ref* pSender);
-    void spawn
     // implement the "static create()" method manually
+    void gameUpdate(float dt);
     CREATE_FUNC(GameScene);
-
-
+    
+    
 };
 
 #endif // __GAME_SCENE_H__

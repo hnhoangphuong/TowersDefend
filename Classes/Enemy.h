@@ -2,8 +2,9 @@
 #define __CREEP_H__
 
 #include "cocos2d.h"
+#include "CObject.h"
 
-class Creep 
+class Enemy :public CObject
 {
 private:
         cocos2d::Sprite* Rect;
@@ -11,10 +12,9 @@ private:
         cocos2d::Vec2 origin;
 
 public:
-    Creep();
-    void spawnCreep(cocos2d::Layer* layer);
-
-
+    Enemy();
+    
+    void spawnEnemy(cocos2d::Layer *layer);
 };
 
 #endif // __CREEP_H__

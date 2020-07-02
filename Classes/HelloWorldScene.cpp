@@ -3,7 +3,7 @@
 
 USING_NS_CC;
 
-Scene* HelloWorld::createScene()
+CScene* HelloWorld::createScene()
 {
     return HelloWorld::create();
 }
@@ -20,7 +20,7 @@ bool HelloWorld::init()
 {
     //////////////////////////////
     // 1. super init first
-    if ( !Scene::init() )
+    if ( !CScene::init())
     {
         return false;
     }
@@ -91,9 +91,14 @@ bool HelloWorld::init()
         // add the sprite as a child to this layer
         this->addChild(sprite, 0);
     }
+    scheduleOnce(CC_SCHEDULE_SELECTOR(HelloWorld::goToGameScene),2);
+
     return true;
 }
-
+void HelloWorld::goToGameScene(float time)
+{
+    SceneManager::getInstance()->replaceScene(GAMEPLAY_SCENE);
+}
 
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
@@ -104,6 +109,7 @@ void HelloWorld::menuCloseCallback(Ref* pSender)
 
     //EventCustom customEndEvent("game_scene_close_event");
     //_eventDispatcher->dispatchEvent(&customEndEvent);
+    
 
 
 }

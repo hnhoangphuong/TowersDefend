@@ -1,13 +1,15 @@
 #ifndef __HELLOWORLD_SCENE_H__
 #define __HELLOWORLD_SCENE_H__
 
-#include "cocos2d.h"
 
-class HelloWorld : public cocos2d::Scene
+
+#include "SceneMgr.h"
+
+class HelloWorld : public CScene
 {
 public:
-    static cocos2d::Scene* createScene();
-
+    static CScene* createScene();
+    void goToGameScene(float time);
     virtual bool init();
     
     // a selector callback

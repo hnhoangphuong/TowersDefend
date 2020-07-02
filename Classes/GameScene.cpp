@@ -3,9 +3,10 @@
 #include "SimpleAudioEngine.h"
 
 USING_NS_CC;
-Scene* GameScene::createScene()
+
+CScene* GameScene::createScene()
 {   
-   
+    
     return GameScene::create();
 }
 
@@ -21,19 +22,11 @@ bool GameScene::init()
 {
     //////////////////////////////
     // 1. super init first
-    if (!Scene::init())
+    if (!CScene::init())
     {
         return false;
     }
 
-    auto visibleSize = Director::getInstance()->getVisibleSize();
-    Vec2 origin = Director::getInstance()->getVisibleOrigin();
-
-    /////////////////////////////
-    // 2. add a menu item with "X" image, which is clicked to quit the program
-    //    you may modify it.
-
-    // add a "close" icon to exit the progress. it's an autorelease object
     auto closeItem = MenuItemImage::create(
         "CloseNormal.png",
         "CloseSelected.png",
@@ -57,12 +50,6 @@ bool GameScene::init()
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
 
-    /////////////////////////////
-    // 3. add your codes below...
-
-    // add a label shows "Hello World"
-    // create and initialize a label
-
     auto label = Label::createWithTTF("Game Scene", "fonts/Marker Felt.ttf", 24);
     if (label == nullptr)
     {
@@ -78,24 +65,25 @@ bool GameScene::init()
         this->addChild(label, 1);
     }
     
-   
-    spriteBall = Sprite::create("ball2small.png");
-    spriteBall->setPosition(Vec2(visibleSize.width * 0.3, visibleSize.height /2));
-
-    /*spr_bodyBall->setCollisionBitmask(1);
-    spr_bodyBall->setContactTestBitmask(true);*/
-    //spr_bodyBall->setGravityEnable(false);
-    addChild(spriteBall);
-   
-    auto spriteCrate = Sprite::create("crate.png");
-    spriteCrate->setPosition(Vec2(visibleSize.width * 0.6, visibleSize.height*0.8));
-    addChild(spriteCrate);
-    
-    this->schedule(schedule_selector(GameScene::spawnCreep,))
 
     return true;
 }   
 
+void GameScene::gameUpdate(float dt)
+{
+    time-=dt;
+    fps++;
+    if(time<=0)
+    {
+        time=1;
+        CCLOG("FPS: "+fps);
+        fps=0;
+    }
+    auto enemy = new Enemy();
+    enemy.spawnEnemy(dt);
+    
+    
+}
 
 void GameScene::menuCloseCallback(Ref* pSender)
 {
@@ -108,4 +96,11 @@ void GameScene::menuCloseCallback(Ref* pSender)
     //_eventDispatcher->dispatchEvent(&customEndEvent);
 }
 
+bool GameScene::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event)
+{
+    CCLOG("onTouchBegan x =%f,y= %f", touch->getLocation().x, touch->getLocation().y);
+    auto actionMoveTo = MoveTo::create(2, Vec2(touch->getLocation().x,touch->getLocation().y));
+    spriteBall->runAction(actionMoveTo); 
+    return true;
+}
 
