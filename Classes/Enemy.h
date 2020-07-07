@@ -10,11 +10,11 @@ private:
         cocos2d::Sprite* Rect;
         cocos2d::Size visibleSize;
         cocos2d::Vec2 origin;
-
+		char *imageName;
 public:
     Enemy();
     
-    void spawnEnemy(cocos2d::Layer *layer);
+    bool spawnEnemy(const char* filename,cocos2d::Point pos);
 };
 
 #endif // __CREEP_H__

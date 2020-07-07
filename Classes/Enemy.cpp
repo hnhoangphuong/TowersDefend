@@ -5,16 +5,18 @@ USING_NS_CC;
 
 Enemy::Enemy()
 {
-    visibleSize=Director::getInstance()->getVisibleSize();
-    origin= Director::getInstance()->getVisibleSize();
+    
 }
 
 
 
-void Enemy::spawnEnemy(cocos2d::Layer* layer)
+bool Enemy::spawnEnemy(const char *filename, cocos2d::Point pos)
 {
-    Rect = Sprite::create("crate.png");
-    auto random= CCRANDOM_0_1();
-    Rect->setPosition(Vec2(random*visibleSize.height+origin.y,random*visibleSize.width+origin.x));
-    layer->addChild(Rect);
+	imageName = (char*)malloc(strlen(filename));
+	imageName = strcpy(imageName, filename);
+	Rect = Sprite::create(filename);
+	cocos2d::Texture2D *heroTexture = TextureCache::sharedTextureCache()->addImage(filename);
+	Rect->setPosition(pos);
+
+	return true;
 }
