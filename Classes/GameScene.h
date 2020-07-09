@@ -4,16 +4,19 @@
 #include "CObject.h"
 #include "CScene.h"
 #include "Enemy.h"
+#include "Tower.h"
 
 class GameScene : public CScene
 {
 private:
     cocos2d::Sprite* spriteBall;
+    
     float time=1;
     float fps=0;
 public:
+    Tower* tower1;
     static CScene* createScene();
-  
+    
     virtual bool init();
     bool onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event);
     

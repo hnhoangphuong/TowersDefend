@@ -1,6 +1,6 @@
 
 #include "GameScene.h"
-#include "SimpleAudioEngine.h"
+//#include "SimpleAudioEngine.h"
 
 USING_NS_CC;
 
@@ -64,23 +64,16 @@ bool GameScene::init()
         // add the label as a child to this layer
         this->addChild(label, 1);
     }
-    
+    tower1=new Tower();
+    tower1->createTower("8.png",Vec2(visibleSize.height/2,visibleSize.width/2));
+    this->addChild(tower1);
 
     return true;
 }   
 
 void GameScene::gameUpdate(float dt)
 {
-    time-=dt;
-    fps++;
-    if(time<=0)
-    {
-        time=1;
-        CCLOG("FPS: "+fps);
-        fps=0;
-    }
-    auto enemy = new Enemy();
-    enemy.spawnEnemy(dt);
+  
     
     
 }

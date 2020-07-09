@@ -13,6 +13,7 @@ private:
 		char *imageName;
 public:
     Enemy();
+    void run(float deltaTime){};
     
     bool spawnEnemy(const char* filename,cocos2d::Point pos);
 };
