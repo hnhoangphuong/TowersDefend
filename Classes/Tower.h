@@ -5,13 +5,12 @@ USING_NS_CC;
 class Tower : public CObject
 {
 private:
-    cocos2d::Sprite* towerSprite;
-
+    char* imageName;
 public:
 Tower();
 ~Tower();
-    bool createTower( std::string  filename,cocos2d::Vec2 pos);
-      bool init(){return false;};
-     void updateObject(float deltaTime){};
-     void run(float deltaTime){};
+    bool setTower( const char *filename, cocos2d::Vec2 pos);
+    bool init(){return false;};
+    void updateObject(float deltaTime){};
+    void run(float deltaTime){};
 };

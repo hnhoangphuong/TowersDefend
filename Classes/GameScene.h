@@ -5,6 +5,7 @@
 #include "CScene.h"
 #include "Enemy.h"
 #include "Tower.h"
+#include "myMap.h"
 
 class GameScene : public CScene
 {
@@ -13,8 +14,11 @@ private:
     
     float time=1;
     float fps=0;
+    myMap* map;
 public:
     Tower* tower1;
+    Enemy* enemy1;
+
     static CScene* createScene();
     
     virtual bool init();

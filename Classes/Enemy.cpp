@@ -8,15 +8,13 @@ Enemy::Enemy()
     
 }
 
-
-
-bool Enemy::spawnEnemy(const char *filename, cocos2d::Point pos)
+bool Enemy::spawnEnemy(const char *filename, cocos2d::Vec2 pos)
 {
 	imageName = (char*)malloc(strlen(filename));
 	imageName = strcpy(imageName, filename);
-	Rect = Sprite::create(filename);
+	Sprite = Sprite::create(filename);
 	//cocos2d::Texture2D *heroTexture = TextureCache::sharedTextureCache()->addImage(filename);
-	Rect->setPosition(pos);
-
+	Sprite->setPosition(pos);
+	this->addChild(Sprite);
 	return true;
 }

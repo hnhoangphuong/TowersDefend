@@ -13,8 +13,8 @@ private:
 		char *imageName;
 public:
     Enemy();
-    void run(float deltaTime){};
-    
+    //void run(float deltaTime){};
+    bool runEnemy(cocos2d::Vec2* listPoint);
     bool spawnEnemy(const char* filename,cocos2d::Point pos);
 };
 

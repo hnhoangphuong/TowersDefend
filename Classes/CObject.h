@@ -10,20 +10,22 @@ class CObject: public cocos2d::Node
 {
 public:
     CObject();
-    virtual bool init();
-    virtual void updateObject(float deltaTime);
-    virtual void run(float deltaTime)=0;
+    virtual ~CObject(){};
+    // virtual bool init();
+    // virtual void updateObject(float deltaTime);
+    // virtual void run(float deltaTime)=0;
     
     cocos2d::Rect getRect();
 
-    virtual void createPhysicBody(bool dynamic = true, bool rotationEnabale=true);
+    //virtual void createPhysicBody(bool dynamic = true, bool rotationEnabale=true);
 
-    virtual void onCollisionEnEnter(CObject* gameObject){}
-    virtual void onCollisionExit(CObject* gameObject){}
-    virtual void onCollisionPreEnter(CObject* gameObject){}
-    virtual void onCollisionPosExit(CObject* gameObject){}
+    // virtual void onCollisionEnEnter(CObject* gameObject){}
+    // virtual void onCollisionExit(CObject* gameObject){}
+    // virtual void onCollisionPreEnter(CObject* gameObject){}
+    // virtual void onCollisionPosExit(CObject* gameObject){}
 protected:
     bool _isAlive;
+    cocos2d::Sprite *Sprite;
 };
 
 #endif // __COBJECT_H__
