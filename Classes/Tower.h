@@ -5,6 +5,7 @@ USING_NS_CC;
 class Tower : public CObject
 {
 private:
+
     char* imageName;
 public:
 Tower();

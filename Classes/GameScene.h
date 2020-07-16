@@ -5,7 +5,7 @@
 #include "CScene.h"
 #include "Enemy.h"
 #include "Tower.h"
-#include "myMap.h"
+#include "MyMap.h"
 
 class GameScene : public CScene
 {
@@ -14,10 +14,11 @@ private:
     
     float time=1;
     float fps=0;
-    myMap* map;
+    
 public:
     Tower* tower1;
     Enemy* enemy1;
+    MyMap* map;
 
     static CScene* createScene();
     
@@ -26,7 +27,7 @@ public:
     
     void menuCloseCallback(cocos2d::Ref* pSender);
     // implement the "static create()" method manually
-    void gameUpdate(float dt);
+    void update(float dt);
     CREATE_FUNC(GameScene);
     
     

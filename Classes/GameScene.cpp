@@ -64,22 +64,29 @@ bool GameScene::init()
         // add the label as a child to this layer
         this->addChild(label, 1);
     }
-    enemy1 = new Enemy;
+    map= new MyMap();
+    map->initMap1();
+
+    enemy1 = new Enemy();
     enemy1->spawnEnemy("4_enemy.png",Vec2(visibleSize.width/2+origin.x -45,visibleSize.height-100+origin.y));
     enemy1->setScale(0.3f);
+    
     this->addChild(enemy1);
+
+
 
     tower1=new Tower();
     tower1->setTower("18.png", Vec2(visibleSize.width/2+origin.x,visibleSize.height/2));
     tower1->setScale(0.6f);
     this->addChild(tower1);
-
+    this->scheduleUpdate();
     return true;
 }   
 
-void GameScene::gameUpdate(float dt)
+void GameScene::update(float dt)
 {
-  
+	enemy1->actionMove(map->getPoint(0));
+    
     
     
 }

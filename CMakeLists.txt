@@ -57,7 +57,8 @@ list(APPEND GAME_SOURCE
      Classes/SceneMgr.cpp
      Classes/Wave.cpp
      Classes/Tower.cpp
-     Classes/myMap.cpp
+     Classes/MyMap.cpp
+     Classes/ListPoint.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -69,7 +70,8 @@ list(APPEND GAME_HEADER
      Classes/Definition.h
      Classes/Wave.h
      Classes/Tower.h
-     Classes/myMap.h
+     Classes/MyMap.h
+     Classes/ListPoint.h
      )
 if(ANDROID)
     # change APP_NAME to the share library name for Android, it's value depend on AndroidManifest.xml
