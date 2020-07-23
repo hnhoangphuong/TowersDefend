@@ -16,7 +16,7 @@ public:
     // virtual void run(float deltaTime)=0;
     
     cocos2d::Rect getRect();
-
+    cocos2d::Sprite *objectSprite;
     //virtual void createPhysicBody(bool dynamic = true, bool rotationEnabale=true);
 
     // virtual void onCollisionEnEnter(CObject* gameObject){}
@@ -25,7 +25,9 @@ public:
     // virtual void onCollisionPosExit(CObject* gameObject){}
 protected:
     bool _isAlive;
-    cocos2d::Sprite *Sprite;
+    
+    cocos2d::Size visibleSize;
+    cocos2d::Vec2 origin;
 };
 
 #endif // __COBJECT_H__

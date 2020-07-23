@@ -66,11 +66,23 @@ bool GameScene::init()
     }
     map= new MyMap();
     map->initMap1();
+    float mapRatio;
+    if(map->getMapTMX()->getContentSize().height>=this->visibleSize.height)
+    {
+        mapRatio=this->visibleSize.height/map->getMapTMX()->getContentSize().height;
+    }else
+    {
+        mapRatio=map->getMapTMX()->getContentSize().height/this->visibleSize.height;
+    }
+    CCLOG("RATIO==============================%f",mapRatio);
+    map->setScale(mapRatio);
+    map->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
+    map->setPosition(Vec2(origin.x,origin.y));
+    this->addChild(map);
 
     enemy1 = new Enemy();
     enemy1->spawnEnemy("4_enemy.png",Vec2(visibleSize.width/2+origin.x -45,visibleSize.height-100+origin.y));
     enemy1->setScale(0.3f);
-    
     this->addChild(enemy1);
 
 
@@ -85,9 +97,9 @@ bool GameScene::init()
 
 void GameScene::update(float dt)
 {
+    
 	enemy1->actionMove(map->getPoint(0));
-    
-    
+    CCLOG("NHD==================================");
     
 }
 

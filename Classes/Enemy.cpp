@@ -12,15 +12,12 @@ bool Enemy::spawnEnemy(const char *filename, cocos2d::Vec2 pos)
 {
 	imageName = (char*)malloc(strlen(filename));
 	imageName = strcpy(imageName, filename);
-	Sprite = Sprite::create(filename);
-	Sprite->setPosition(pos);
-	this->addChild(Sprite);
+	objectSprite = Sprite::create(filename);
+	objectSprite->setPosition(pos);
+	this->addChild(objectSprite);
 	return true;
 }
 void Enemy::actionMove(Vec2 nextPos)
 {
 	moveTo=MoveTo::create(2,nextPos);
-	
-	
-	
 }
