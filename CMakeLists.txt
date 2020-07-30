@@ -72,7 +72,7 @@ list(APPEND GAME_HEADER
      Classes/Wave.h
      Classes/Tower.h
      Classes/MyMap.h
-     Classes/ListPoint.h
+     Classes/EnemyPath.h
      Classes/GameManager.h
      )
 if(ANDROID)

@@ -3,6 +3,7 @@
 
 #include "cocos2d.h"
 #include "Enemy.h"
+#include "Tower.h"
 USING_NS_CC;
 
 class GameManager
@@ -12,6 +13,7 @@ public:
 	static void eraseAll();
 	
     Vector<Enemy*> enemyVector;
+	// Vector<Tower*> towerVector;
     static GameManager* getInstance();
 	void setInstance(int tag);
 

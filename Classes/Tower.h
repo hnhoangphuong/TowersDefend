@@ -1,3 +1,5 @@
+#ifndef _TOWER_H_
+#define _TOWER_H_
 #include "CObject.h"
 #include "Enemy.h"
 #include "GameManager.h"
@@ -41,4 +43,6 @@ public:
     CC_SYNTHESIZE(int, _range, Range);
     CC_SYNTHESIZE(int, _level, Level);
     CC_SYNTHESIZE_RETAIN(Enemy*, _target, Target);
+
 };
+#endif //_TOWER_H_

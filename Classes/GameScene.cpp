@@ -92,6 +92,10 @@ bool GameScene::init()
     tower1->setScale(0.6f);
     this->addChild(tower1);
     this->scheduleUpdate();
+
+    auto touchListener = EventListenerTouchOneByOne::create();
+    touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan,this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener,this);
     return true;
 }   
 
@@ -99,7 +103,7 @@ void GameScene::update(float dt)
 {
     
 	enemy1->actionMove(map->getPoint(0));
-    CCLOG("NHD==================================");
+    
     
 }
 
@@ -116,9 +120,7 @@ void GameScene::menuCloseCallback(Ref* pSender)
 
 bool GameScene::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event)
 {
-    CCLOG("onTouchBegan x =%f,y= %f", touch->getLocation().x, touch->getLocation().y);
-    auto actionMoveTo = MoveTo::create(2, Vec2(touch->getLocation().x,touch->getLocation().y));
-    spriteBall->runAction(actionMoveTo); 
+    CCLOG("onTouchBegan x =%f,y= %f", touch->getLocation().x+origin.x, touch->getLocation().y+origin.y);
     return true;
 }
 

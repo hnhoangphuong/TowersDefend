@@ -10,6 +10,7 @@ GameManager* GameManager::getInstance()
 void GameManager::eraseAll()
 {
 	instance->enemyVector.clear();
+	// instance->towerVector.clear();
 }
 
 void GameManager::setInstance(int tag)
