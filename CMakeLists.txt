@@ -60,6 +60,8 @@ list(APPEND GAME_SOURCE
      Classes/MyMap.cpp
      Classes/ListPoint.cpp
      Classes/GameManager.cpp
+     Classes/ResourceMgr.cpp
+     Classes/TouchLayer.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -74,6 +76,8 @@ list(APPEND GAME_HEADER
      Classes/MyMap.h
      Classes/EnemyPath.h
      Classes/GameManager.h
+     Classes/ResourceMgr.h
+     Classes/TouchLayer.h
      )
 if(ANDROID)
     # change APP_NAME to the share library name for Android, it's value depend on AndroidManifest.xml

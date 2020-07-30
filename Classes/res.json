@@ -1,0 +1,32 @@
+{
+    "Level": [
+      {
+        "enemys": 20,
+        "towers": 5,
+        "enemySprite": [
+          "4_enemy.png",
+          "5_enemy.png",
+          "6_enemy.png"
+        ],
+        "towerSprite": [
+          "18.png",
+          "9.png"
+        ],
+        "map": "MapProject/Map_1.tmx"
+      },
+      {
+        "enemys": 20,
+        "towers": 5,
+        "enemySprite": [
+          "4_enemy.png",
+          "0_enemy.png",
+          "1_enemy.png"
+        ],
+        "towerSprite": [
+          "18.png",
+          "8.png"
+        ],
+        "map": "MapProject/Map_2.tmx"
+      }
+    ]
+  }

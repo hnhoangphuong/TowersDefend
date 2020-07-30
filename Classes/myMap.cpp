@@ -40,3 +40,14 @@ TMXTiledMap* MyMap::getMapTMX()
     return mapTMX;
 }
 
+bool MyMap::initMap()
+{
+    maprcs->getInstance()->Init();
+    
+
+}
+Sprite* MyMap::getTowerPosition(int towerName)
+{   
+    return terrain[towerName];
+}
+

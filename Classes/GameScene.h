@@ -6,7 +6,8 @@
 #include "Enemy.h"
 #include "Tower.h"
 #include "MyMap.h"
-
+#include "ResourceMgr.h"
+#include "TouchLayer.h"
 class GameScene : public CScene
 {
 private:
