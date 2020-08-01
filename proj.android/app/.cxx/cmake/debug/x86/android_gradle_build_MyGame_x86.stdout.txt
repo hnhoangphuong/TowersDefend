@@ -1,3 +1,2 @@
 ninja: Entering directory `/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86'
-[1/2] Building CXX object CMakeFiles/MyGame.dir/Classes/GameScene.cpp.o
-[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/x86/libMyGame.so
+ninja: no work to do.

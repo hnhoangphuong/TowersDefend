@@ -5,10 +5,9 @@
 #include "MyMap.h"
 USING_NS_CC;
 
-class TouchLayer : public cocos2d::Layer
+class TouchLayer : public cocos2d::Node
 {
 private:
-    Tower* tower;
 public:
 TouchLayer(){};
 ~TouchLayer(){};
@@ -17,6 +16,6 @@ TouchLayer(){};
     EventListenerTouchOneByOne* touchListener;
     EventListenerTouchOneByOne* setTower;
 
-    void placeTower(Tower* tower);
+    void placeTower();
 };
 #endif // _TOUCHLAYER_H_

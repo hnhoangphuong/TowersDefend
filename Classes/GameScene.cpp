@@ -85,23 +85,20 @@ bool GameScene::init()
     enemy1->setScale(0.3f);
     this->addChild(enemy1);
 
+    map->placeTower();
 
-
-    tower1=new Tower();
-    // tower1->setTower("18.png", Vec2(visibleSize.width/2+origin.x,visibleSize.height/2));
-    // tower1->setScale(0.6f);
-    // this->addChild(tower1);
-    auto touchlayer = new TouchLayer();
-    touchlayer->setTower(tower1);
+    
+    
+    
+    
     this->scheduleUpdate();
 
-    ResourceMgr* resource;
-    resource->getInstance()->Init();
+    ResourceMgr::getInstance()->Init();
     
 
-    auto touchListener = EventListenerTouchOneByOne::create();
-    touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan,this);
-    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener,this);
+    // auto touchListener = EventListenerTouchOneByOne::create();
+    // touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan,this);
+    // this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener,this);
     return true;
 }   
 

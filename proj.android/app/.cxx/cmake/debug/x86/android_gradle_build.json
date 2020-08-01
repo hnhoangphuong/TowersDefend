@@ -1,26 +1,26 @@
 {
   "stringTable": {
     "0": "/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86",
-    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -DCOCOS2D_DEBUG=1 -DLWS_WITH_LIBUV -DMyGame_EXPORTS -DUSE_FILE32API -I../../../../../../Classes -I../../../../../../cocos2d/cocos/audio/include -I../../../../../../cocos2d -I../../../../../../cocos2d/cocos -I../../../../../../cocos2d/extensions -I../../../../../../cocos2d/cocos/platform -I../../../../../../cocos2d/cocos/base -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/cocos/platform/android -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -DCOCOS2D_DEBUG=1 -DLWS_WITH_LIBUV -DUSE_FILE32API -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d -I../../../../../../cocos2d/cocos -I../../../../../../cocos2d/extensions -I../../../../../../cocos2d/cocos/platform -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "3": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -DCOCOS2D_DEBUG=1 -DLWS_WITH_LIBUV -DUSE_FILE32API -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d -I../../../../../../cocos2d/cocos -I../../../../../../cocos2d/extensions -I../../../../../../cocos2d/cocos/platform -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "4": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DLWS_WITH_LIBUV -I../../../../../../cocos2d/cocos/editor-support -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "5": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/recast/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "6": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/recast/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "7": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/tinyxml2/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "8": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/xxhash/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "9": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/xxtea/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "10": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/clipper/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "11": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/edtaa3func/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "12": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/ConvertUTF/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "13": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/ConvertUTF/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "14": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/poly2tri/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "15": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/md5/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "16": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I/Users/imac_vtca/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "17": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "18": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DONLY_C -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/android-specific/tremolo/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
-    "19": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/unzip/. -I../../../../../../cocos2d/external/zlib/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
-    "20": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/platform/android/.. -I../../../../../../cocos2d/cocos/platform/android/../.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11"
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -DCOCOS2D_DEBUG=1 -DLWS_WITH_LIBUV -DMyGame_EXPORTS -DUSE_FILE32API -I../../../../../../Classes -I../../../../../../cocos2d/cocos/audio/include -I../../../../../../cocos2d -I../../../../../../cocos2d/cocos -I../../../../../../cocos2d/extensions -I../../../../../../cocos2d/cocos/platform -I../../../../../../cocos2d/cocos/base -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/cocos/platform/android -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -DCOCOS2D_DEBUG=1 -DLWS_WITH_LIBUV -DUSE_FILE32API -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d -I../../../../../../cocos2d/cocos -I../../../../../../cocos2d/extensions -I../../../../../../cocos2d/cocos/platform -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "3": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DANDROID -DCOCOS2D_DEBUG=1 -DLWS_WITH_LIBUV -DUSE_FILE32API -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d -I../../../../../../cocos2d/cocos -I../../../../../../cocos2d/extensions -I../../../../../../cocos2d/cocos/platform -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "4": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DLWS_WITH_LIBUV -I../../../../../../cocos2d/cocos/editor-support -isystem ../../../../../../cocos2d/external/Box2D/include -isystem ../../../../../../cocos2d/external/chipmunk/include -isystem ../../../../../../cocos2d/external/freetype2/include/android/freetype2 -I../../../../../../cocos2d/external/recast/.. -isystem ../../../../../../cocos2d/external/jpeg/include/android -isystem ../../../../../../cocos2d/external/uv/include -isystem ../../../../../../cocos2d/external/webp/include/android -isystem ../../../../../../cocos2d/external/bullet/include -isystem ../../../../../../cocos2d/external/bullet/include/bullet -isystem ../../../../../../cocos2d/external/openssl/include/android -isystem ../../../../../../cocos2d/external/tiff/include/android -isystem ../../../../../../cocos2d/external/websockets/include/android -I../../../../../../cocos2d/external/tinyxml2/. -I../../../../../../cocos2d/external/xxhash/. -I../../../../../../cocos2d/external/xxtea/. -I../../../../../../cocos2d/external/clipper/. -I../../../../../../cocos2d/external/edtaa3func/. -I../../../../../../cocos2d/external/ConvertUTF/. -I../../../../../../cocos2d/external/poly2tri/.. -I../../../../../../cocos2d/external/md5/.. -isystem ../../../../../../cocos2d/external/curl/include/android -isystem ../../../../../../cocos2d/external/png/include/android -I/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/sources/android/cpufeatures -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -I../../../../../../cocos2d/external/android-specific/tremolo/. -isystem ../../../../../../cocos2d/external/zlib/include -I../../../../../../cocos2d/external/unzip/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "5": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/recast/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "6": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/recast/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "7": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/tinyxml2/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "8": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/xxhash/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "9": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/xxtea/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "10": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/clipper/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "11": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/edtaa3func/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "12": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/ConvertUTF/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "13": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/ConvertUTF/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "14": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/poly2tri/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "15": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/md5/.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "16": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/sources/android/cpufeatures -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "17": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/android-specific/pvmp3dec/include -I../../../../../../cocos2d/external/android-specific/pvmp3dec/src -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "18": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DONLY_C -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/android-specific/tremolo/. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu99",
+    "19": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/editor-support -I../../../../../../cocos2d/external/unzip/. -I../../../../../../cocos2d/external/zlib/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11",
+    "20": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -I../../../../../../cocos2d/cocos/platform/android/.. -I../../../../../../cocos2d/cocos/platform/android/../.. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -fsigned-char -O0 -fno-limit-debug-info -fPIC -std=gnu++11"
   },
   "buildFiles": [
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/ConvertUTF/CMakeLists.txt",
@@ -44,6 +44,7 @@
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/jpeg/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/renderer/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/ui/CMakeLists.txt",
+    "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cmake/Modules/CocosConfigDepend.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/xxtea/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/storage/CMakeLists.txt",
@@ -61,11 +62,11 @@
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/uv/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/vr/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/edtaa3func/CMakeLists.txt",
+    "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/unzip/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/recast/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/websockets/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/math/CMakeLists.txt",
-    "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/editor-support/spine/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/physics3d/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/3d/CMakeLists.txt",
@@ -77,7 +78,6 @@
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/platform/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/cmake/CocosExternalConfig.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cmake/Modules/CocosBuildSet.cmake",
-    "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cmake/Modules/CocosBuildHelpers.cmake"
   ],
   "cleanCommands": [
@@ -88,7 +88,7 @@
     "ext_tremolo-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_tremolo",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_tremolo",
       "files": [
@@ -164,7 +164,7 @@
     "ext_unzip-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_unzip",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_unzip",
       "files": [
@@ -190,7 +190,7 @@
     "ext_tinyxml2-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_tinyxml2",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_tinyxml2",
       "files": [
@@ -206,7 +206,7 @@
     "cocos2d-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" cocos2d",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "cocos2d",
       "files": [
@@ -6097,7 +6097,7 @@
     "ext_recast-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_recast",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_recast",
       "files": [
@@ -6193,7 +6193,7 @@
     "external-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" external",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "external",
       "files": [
@@ -6209,7 +6209,7 @@
     "ext_md5-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_md5",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_md5",
       "files": [
@@ -6225,7 +6225,7 @@
     "ext_clipper-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_clipper",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_clipper",
       "files": [
@@ -6241,7 +6241,7 @@
     "ext_xxhash-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_xxhash",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_xxhash",
       "files": [
@@ -6257,7 +6257,7 @@
     "ext_convertUTF-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_convertUTF",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_convertUTF",
       "files": [
@@ -6278,7 +6278,7 @@
     "ext_xxtea-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_xxtea",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_xxtea",
       "files": [
@@ -6294,12 +6294,12 @@
     "ext_cpufeatures-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_cpufeatures",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_cpufeatures",
       "files": [
         {
-          "src": "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+          "src": "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/sources/android/cpufeatures/cpu-features.c",
           "flagsOrdinal": 16,
           "workingDirectoryOrdinal": 0
         }
@@ -6310,7 +6310,7 @@
     "ext_edtaa3func-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_edtaa3func",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_edtaa3func",
       "files": [
@@ -6326,7 +6326,7 @@
     "ext_poly2tri-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_poly2tri",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_poly2tri",
       "files": [
@@ -6362,7 +6362,7 @@
     "MyGame-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" MyGame",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "MyGame",
       "files": [
@@ -6377,12 +6377,17 @@
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/SplashScene.cpp",
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/CObject.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/MenuScene.cpp",
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/CScene.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Enemy.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
@@ -6392,7 +6397,32 @@
           "workingDirectoryOrdinal": 0
         },
         {
-          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Creep.cpp",
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/SceneMgr.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Wave.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Tower.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/MyMap.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/ListPoint.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/GameManager.cpp",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         },
@@ -6408,11 +6438,11 @@
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/SplashScene.h",
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/CObject.h",
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/MenuScene.h",
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/CScene.h",
           "workingDirectoryOrdinal": 0
         },
         {
@@ -6420,7 +6450,35 @@
           "workingDirectoryOrdinal": 0
         },
         {
-          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Creep.h",
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Enemy.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/SceneMgr.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Definition.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Wave.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/Tower.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/MyMap.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/ListPoint.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/imac_vtca/Documents/GitHub/TowersDefend/Classes/GameManager.h",
           "workingDirectoryOrdinal": 0
         }
       ],
@@ -6429,7 +6487,7 @@
     "ext_pvmp3dec-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" ext_pvmp3dec",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "ext_pvmp3dec",
       "files": [
@@ -6585,7 +6643,7 @@
     "cpp_android_spec-Debug-x86": {
       "buildCommand": "/Users/imac_vtca/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/x86\" cpp_android_spec",
       "buildType": "debug",
-      "toolchain": "2721708928",
+      "toolchain": "1130613600",
       "abi": "x86",
       "artifactName": "cpp_android_spec",
       "files": [
@@ -6635,9 +6693,9 @@
     }
   },
   "toolchains": {
-    "2721708928": {
-      "cCompilerExecutable": "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
-      "cppCompilerExecutable": "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    "1130613600": {
+      "cCompilerExecutable": "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
     }
   },
   "cFileExtensions": [

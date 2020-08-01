@@ -25,7 +25,7 @@ bool MyMap::initMap1()
    
     for(int i=0;i<5;i++)
     {
-        terrain[i]->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
+        terrain[i]->setAnchorPoint(Point::ANCHOR_MIDDLE);
         this->addChild(terrain[i],2);
     }
     this->addChild(mapTMX,0,99);
@@ -40,14 +40,39 @@ TMXTiledMap* MyMap::getMapTMX()
     return mapTMX;
 }
 
+
 bool MyMap::initMap()
 {
     maprcs->getInstance()->Init();
-    
-
 }
 Sprite* MyMap::getTowerPosition(int towerName)
 {   
     return terrain[towerName];
+}
+void MyMap::deleteTerrain(int name)
+{
+    delete terrain[name];
+}
+void MyMap::placeTower()
+{
+    
+    setTower = EventListenerTouchOneByOne::create();
+    setTower->onTouchBegan = [&](Touch*touch,Event* event)
+    {
+        auto target = static_cast<Sprite*>(event->getCurrentTarget());
+        Point locationInNode = target->convertTouchToNodeSpace(touch);
+        Tower* tower = new Tower();
+        Size size = target->getContentSize();
+	    Rect rect = Rect(0, 0, size.width, size.height);
+	if (rect.containsPoint(locationInNode))
+	{  	
+        tower->setTower("18.png",touch->getLocation());
+        this->addChild(tower,2);
+        
+         return true;
+    }
+    };
+
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(setTower,this);
 }
 

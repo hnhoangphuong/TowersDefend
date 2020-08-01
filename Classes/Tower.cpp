@@ -16,6 +16,8 @@ bool Tower::setTower(const char *filename, cocos2d::Vec2 pos)
 	imageName = strcpy(imageName, filename);
 	objectSprite = Sprite::create(filename);
 	objectSprite->setPosition(pos);
+	objectSprite->setScale(0.6);
+	objectSprite->setAnchorPoint(Point::ANCHOR_MIDDLE_BOTTOM);
 	this->addChild(objectSprite);
 	return true;
 }

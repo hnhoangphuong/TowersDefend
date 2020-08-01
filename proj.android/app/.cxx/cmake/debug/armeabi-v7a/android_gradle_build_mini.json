@@ -21,6 +21,7 @@
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/jpeg/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/renderer/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/ui/CMakeLists.txt",
+    "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cmake/Modules/CocosConfigDepend.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/xxtea/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/storage/CMakeLists.txt",
@@ -38,11 +39,11 @@
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/uv/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/vr/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/edtaa3func/CMakeLists.txt",
+    "/Users/imac_vtca/Library/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/unzip/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/recast/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/websockets/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/math/CMakeLists.txt",
-    "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/editor-support/spine/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/physics3d/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/3d/CMakeLists.txt",
@@ -54,7 +55,6 @@
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cocos/platform/CMakeLists.txt",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/external/cmake/CocosExternalConfig.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cmake/Modules/CocosBuildSet.cmake",
-    "/Users/imac_vtca/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
     "/Users/imac_vtca/Documents/GitHub/TowersDefend/cocos2d/cmake/Modules/CocosBuildHelpers.cmake"
   ],
   "cleanCommands": [

@@ -1,15 +1,22 @@
 #include "TouchLayer.h"
 
 
-void TouchLayer::placeTower(Tower* tower)
+void TouchLayer::placeTower()
 {   
-    
-    this->tower=tower;
-    
     setTower = EventListenerTouchOneByOne::create();
     setTower->onTouchBegan = [&](Touch*touch,Event* event)
     {
-        this->tower->setTower("18.png",touch->getLocation());
+      
+        auto tg = static_cast<Sprite*>(event->getCurrentTarget());
+        
+        Point tgPos = tg->convertTouchToNodeSpace(touch);
+        tg->setVisible(false);
+        Tower* tower = new Tower();
+        tower->setTower("18.png",touch->getLocation());
+        this->addChild(tower,2);
+        // 
         return true;
     };
+
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(setTower,this);
 }
