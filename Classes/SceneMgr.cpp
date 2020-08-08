@@ -33,14 +33,18 @@ CScene* SceneManager::createScene(int screenId)
 	case EScene::GAMEPLAY_SCENE:
 		return GameScene::createScene();
 
-	/*case EScene::MENU_SCENE:
+	case EScene::MENU_SCENE:
 		return MenuScene::createScene();
 
-	case EScene::GAMEOVER_SCENE:
+	/*case EScene::GAMEOVER_SCENE:
 		return GameoverScene::createScene();
 
 	case EScene::UI_SCENE:
-		return UIScene::createScene();*/
+		return UIScene::createScene();
+	case EScene::SETTING_SCENE:
+		return SettingScene::createScene();
+	case EScene::CREDIT_SCENE:
+		return CreditScene::createScene();*/
 
 	}
 

@@ -44,6 +44,7 @@ TMXTiledMap* MyMap::getMapTMX()
 bool MyMap::initMap()
 {
     maprcs->getInstance()->Init();
+    return true;
 }
 Sprite* MyMap::getTowerPosition(int towerName)
 {   

@@ -5,6 +5,7 @@
 #include "CScene.h"
 #include "HelloWorldScene.h"
 #include "GameScene.h"
+#include "MenuScene.h"
 
 
 enum EScene
@@ -12,6 +13,8 @@ enum EScene
     SPLASH_SCENE,
 	GAMEPLAY_SCENE,
 	MENU_SCENE,
+	SETTING_SCENE,
+	CREDIT_SCENE,
 	UI_SCENE,
 	GAMEOVER_SCENE,
 };
