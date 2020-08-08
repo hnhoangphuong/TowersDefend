@@ -65,6 +65,7 @@ bool GameScene::init()
         this->addChild(label, 1);
     }
     map= new MyMap();
+    map->initMap();
     map->initMap1();
     float mapRatio;
     if(map->getMapTMX()->getContentSize().height>=this->visibleSize.height)
@@ -93,7 +94,7 @@ bool GameScene::init()
     
     this->scheduleUpdate();
 
-    ResourceMgr::getInstance()->Init();
+    
     
 
     // auto touchListener = EventListenerTouchOneByOne::create();
@@ -105,9 +106,7 @@ bool GameScene::init()
 void GameScene::update(float dt)
 {
     
-	enemy1->actionMove(map->getPoint(0));
-    
-    
+	// enemy1->actionMove(map->getPoint(0));       
 }
 
 void GameScene::menuCloseCallback(Ref* pSender)

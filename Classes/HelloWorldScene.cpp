@@ -83,7 +83,7 @@ bool HelloWorld::init()
 }
 void HelloWorld::goToGameScene(float time)
 {
-    SceneManager::getInstance()->replaceScene(GAMEPLAY_SCENE);
+    SceneManager::getInstance()->replaceScene(MENU_SCENE);
 }
 
 void HelloWorld::menuCloseCallback(Ref* pSender)

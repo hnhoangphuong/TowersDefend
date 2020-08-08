@@ -13,8 +13,11 @@ class ResourceMgr
 public:
     void Init();
     static ResourceMgr* getInstance();
-
+    int getNumOfEnemy();
+    string getMap();
+    string getTower(int id);
+    void checkMap();
 private:
 	static ResourceMgr * instance;
-
+    Document m_document;
 };

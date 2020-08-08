@@ -9,7 +9,6 @@ ResourceMgr* ResourceMgr::getInstance()
 }
 void ResourceMgr::Init()
 {
-    Document m_document;
     ssize_t size;
     log("File is json 111-------");
     string content = FileUtils::getInstance()->getStringFromFile("res.json");
@@ -35,6 +34,36 @@ void ResourceMgr::Init()
                 log("File is enemys - %d: towers - %d: map - %s", lv["enemys"].GetInt(), lv["towers"].GetInt(), lv["map"].GetString());
             }
         }
+    }
+    
+}
+
+int ResourceMgr::getNumOfEnemy()
+{
+    int num = m_document["Level"]["enemys"].GetInt();
+    return num;
+}
+
+string ResourceMgr::getMap()
+{
+
+    return m_document["Level"]["map"].GetString();
+}
+
+string ResourceMgr::getTower(int id)
+{
+    return m_document["Level"]["towerSprite"][id].GetString();
+}
+
+
+void ResourceMgr::checkMap()
+{
+    if(m_document["Level"]["map"].IsString())
+    {
+        CCLOG("MAP address======== %s",m_document["Level"]["map"].GetString());
+    }else
+    {
+        CCLOG("MAP address ======= null");
     }
     
 }

@@ -12,6 +12,7 @@
           "18.png",
           "9.png"
         ],
+        "towerTerrain": "MAP1_SET/dot.png",
         "map": "MapProject/Map_1.tmx"
       },
       {
@@ -26,6 +27,7 @@
           "18.png",
           "8.png"
         ],
+        "towerTerrain": "MAP1_SET/dot.png",
         "map": "MapProject/Map_2.tmx"
       }
     ]

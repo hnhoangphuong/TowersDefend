@@ -6,6 +6,8 @@
 #include "HelloWorldScene.h"
 #include "GameScene.h"
 #include "MenuScene.h"
+#include "SettingScene.h"
+#include "CreditScene.h"
 
 
 enum EScene
