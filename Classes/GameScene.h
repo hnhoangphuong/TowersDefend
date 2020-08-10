@@ -8,6 +8,8 @@
 #include "MyMap.h"
 #include "ResourceMgr.h"
 #include "TouchLayer.h"
+#include "SceneMgr.h"
+#include "Level.h"
 class GameScene : public CScene
 {
 private:
@@ -20,7 +22,6 @@ public:
     Tower* tower1;
     Enemy* enemy1;
     MyMap* map;
-
     static CScene* createScene();
     
     virtual bool init();

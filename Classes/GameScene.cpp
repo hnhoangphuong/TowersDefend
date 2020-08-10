@@ -1,4 +1,3 @@
-
 #include "GameScene.h"
 //#include "SimpleAudioEngine.h"
 
@@ -28,8 +27,8 @@ bool GameScene::init()
     }
 
     auto closeItem = MenuItemImage::create(
-        "CloseNormal.png",
-        "CloseSelected.png",
+        "UI/button_close.png",
+        "button_close.png",
         CC_CALLBACK_1(GameScene::menuCloseCallback, this));
 
     if (closeItem == nullptr ||
@@ -49,57 +48,43 @@ bool GameScene::init()
     auto menu = Menu::create(closeItem, NULL);
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
-
-    auto label = Label::createWithTTF("Game Scene", "fonts/Marker Felt.ttf", 24);
-    if (label == nullptr)
-    {
-        problemLoading("'fonts/Marker Felt.ttf'");
-    }
-    else
-    {
-        // position the label on the center of the screen
-        label->setPosition(Vec2(origin.x + visibleSize.width / 2,
-            origin.y + visibleSize.height - label->getContentSize().height));
-
-        // add the label as a child to this layer
-        this->addChild(label, 1);
-    }
+    
+    //auto label = Label::createWithTTF("Game Scene", "fonts/Marker Felt.ttf", 24);
+    //====================================================================================
+    
     map= new MyMap();
     map->initMap();
     map->initMap1();
-    float mapRatio;
-    if(map->getMapTMX()->getContentSize().height>=this->visibleSize.height)
-    {
-        mapRatio=this->visibleSize.height/map->getMapTMX()->getContentSize().height;
-    }else
-    {
-        mapRatio=map->getMapTMX()->getContentSize().height/this->visibleSize.height;
-    }
-    CCLOG("RATIO==============================%f",mapRatio);
-    map->setScale(mapRatio);
+
+    // float mapRatio;
+    // if(map->getMapTMX()->getContentSize().height>=this->visibleSize.height)
+    // {
+    //     mapRatio=this->visibleSize.height/map->getMapTMX()->getContentSize().height;
+    // }else
+    // {
+    //     mapRatio=map->getMapTMX()->getContentSize().height/this->visibleSize.height;
+    // }
+    // map->setScale(mapRatio);
+ 
     map->setAnchorPoint(Point::ANCHOR_BOTTOM_LEFT);
     map->setPosition(Vec2(origin.x,origin.y));
     this->addChild(map);
 
     enemy1 = new Enemy();
-    enemy1->spawnEnemy("4_enemy.png",Vec2(visibleSize.width/2+origin.x -45,visibleSize.height-100+origin.y));
-    enemy1->setScale(0.3f);
+    enemy1->setScale(0.5f);
+    enemy1->spawnEnemy("4_enemy.png",Vec2(origin.x + 120 ,origin.y + 500));
     this->addChild(enemy1);
 
-    map->placeTower();
-
-    
-    
-    
+    // map->placeTower(); 
     
     this->scheduleUpdate();
 
     
     
 
-    // auto touchListener = EventListenerTouchOneByOne::create();
-    // touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan,this);
-    // this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener,this);
+    auto touchListener = EventListenerTouchOneByOne::create();
+    touchListener->onTouchBegan = CC_CALLBACK_2(GameScene::onTouchBegan,this);
+    this->getEventDispatcher()->addEventListenerWithSceneGraphPriority(touchListener,this);
     return true;
 }   
 
@@ -111,13 +96,10 @@ void GameScene::update(float dt)
 
 void GameScene::menuCloseCallback(Ref* pSender)
 {
-    //Close the cocos2d-x game scene and quit the application
-    Director::getInstance()->end();
+    
+    SceneManager::getInstance()->replaceScene(LEVEL_SCENE);
 
-    /*To navigate back to native iOS screen(if present) without quitting the application  ,do not use Director::getInstance()->end() as given above,instead trigger a custom event created in RootViewController.mm as below*/
-
-    //EventCustom customEndEvent("game_scene_close_event");
-    //_eventDispatcher->dispatchEvent(&customEndEvent);
+   
 }
 
 bool GameScene::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* event)

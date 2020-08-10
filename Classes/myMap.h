@@ -10,7 +10,7 @@ private:
     ListPoint* map1;
     cocos2d::Size visibleSize;
     cocos2d::Vec2 origin;
-    cocos2d::Sprite* terrain[5];
+    cocos2d::MenuItemImage* terrain[5];
     EventListenerTouchOneByOne* setTower;
     ResourceMgr* maprcs;
 public:
@@ -24,9 +24,9 @@ MyMap(){};
     TMXTiledMap* getMapTMX();
     void deleteTerrain(int name);
     bool initMap();
-    Sprite* getTowerPosition(int towerName);
-    Sprite* getGroupTerrain();
-    void placeTower();
+    // Sprite* getTowerPosition(int towerName);
+    // Sprite* getGroupTerrain();
+    bool placeTower(cocos2d::Ref* sender);
 protected:
     int wave;
     int maxWave;

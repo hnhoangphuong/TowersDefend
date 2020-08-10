@@ -12,5 +12,6 @@ public:
     static CScene* createScene();
     // implement the "static create()" method manually
     CREATE_FUNC(CreditScene);
+    bool touchLocation(cocos2d::Touch* touch,cocos2d::Event* event);
 };
 #endif //_CREDIT_SCENE_H_

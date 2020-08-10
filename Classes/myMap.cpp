@@ -12,25 +12,30 @@ bool MyMap::initMap1()
     this->addChild(map1);
     mapTMX =TMXTiledMap::create("MapProject/Map_1.tmx");
     // mapTMX->setMapSize(visibleSize);
-    terrain[0] = Sprite::create("MAP1_SET/dot.png");
-    terrain[0]->setPosition(origin.x + 460,origin.y + 200);
-    terrain[1] = Sprite::create("MAP1_SET/dot.png");
-    terrain[1]->setPosition(origin.x + 60,origin.y + 30);
-    terrain[2] = Sprite::create("MAP1_SET/dot.png");
-    terrain[2]->setPosition(origin.x + 130,origin.y + 200);
-    terrain[3] = Sprite::create("MAP1_SET/dot.png");
-    terrain[3]->setPosition(origin.x + 320,origin.y + 30);
-    terrain[4] = Sprite::create("MAP1_SET/dot.png");
-    terrain[4]->setPosition(origin.x + 680,origin.y + 75 );
-   
-    for(int i=0;i<5;i++)
-    {
-        terrain[i]->setAnchorPoint(Point::ANCHOR_MIDDLE);
-        this->addChild(terrain[i],2);
-    }
+    Vector<MenuItem*> MenuItems;
+    terrain[0] = MenuItemImage::create("MAP1_SET/dot.png","tower_1.png",[&](Ref* sender){placeTower(sender);});
+    terrain[0]->setPosition(origin.x + 460,origin.y + 550);
+    // terrain[1] = Sprite::create("MAP1_SET/dot.png");
+    // terrain[1]->setPosition(origin.x + 1130,origin.y + 550);
+    // terrain[2] = Sprite::create("MAP1_SET/dot.png");
+    // terrain[2]->setPosition(origin.x + 200,origin.y + 164);
+    // terrain[3] = Sprite::create("MAP1_SET/dot.png");
+    // terrain[3]->setPosition(origin.x + 825,origin.y + 164);
+    // terrain[4] = Sprite::create("MAP1_SET/dot.png");
+    // terrain[4]->setPosition(origin.x + 1580,origin.y + 210 );
+    MenuItems.pushBack(terrain[0]);
+    auto menu = Menu::createWithArray(MenuItems);
+    menu->setPosition(Vec2::ZERO);
+    this->addChild(menu, 1);
+    // for(int i=1;i<5;i++)
+    // {
+    //     terrain[i]->setAnchorPoint(Point::ANCHOR_MIDDLE);
+    //     this->addChild(terrain[i],2);
+    // }
     this->addChild(mapTMX,0,99);
     return true;
 }
+
 Vec2 MyMap::getPoint(int name)
 {
     return map1->getPoint(name);
@@ -46,15 +51,15 @@ bool MyMap::initMap()
     maprcs->getInstance()->Init();
     return true;
 }
-Sprite* MyMap::getTowerPosition(int towerName)
-{   
-    return terrain[towerName];
-}
+// Sprite* MyMap::getTowerPosition(int towerName)
+// {   
+//     return terrain[towerName];
+// }
 void MyMap::deleteTerrain(int name)
 {
     delete terrain[name];
 }
-void MyMap::placeTower()
+bool MyMap::placeTower(cocos2d::Ref* sender)
 {
     
     setTower = EventListenerTouchOneByOne::create();
@@ -68,12 +73,12 @@ void MyMap::placeTower()
 	if (rect.containsPoint(locationInNode))
 	{  	
         tower->setTower("18.png",touch->getLocation());
-        this->addChild(tower,2);
+        this->addChild(tower,3);
         
          return true;
     }
     };
-
+    
     _eventDispatcher->addEventListenerWithSceneGraphPriority(setTower,this);
 }
 

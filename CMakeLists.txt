@@ -58,13 +58,13 @@ list(APPEND GAME_SOURCE
      Classes/Wave.cpp
      Classes/Tower.cpp
      Classes/MyMap.cpp
-     Classes/ListPoint.cpp
      Classes/GameManager.cpp
      Classes/ResourceMgr.cpp
      Classes/TouchLayer.cpp
      Classes/MenuScene.cpp
      Classes/CreditScene.cpp
      Classes/SettingScene.cpp
+     Classes/Level.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -84,6 +84,7 @@ list(APPEND GAME_HEADER
      Classes/MenuScene.h
      Classes/CreditScene.h
      Classes/SettingScene.h
+     Classes/Level.h
      )
 if(ANDROID)
     # change APP_NAME to the share library name for Android, it's value depend on AndroidManifest.xml

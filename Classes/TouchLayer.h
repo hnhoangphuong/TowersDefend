@@ -15,7 +15,5 @@ TouchLayer(){};
     EventListenerTouchOneByOne* listener;
     EventListenerTouchOneByOne* touchListener;
     EventListenerTouchOneByOne* setTower;
-
-    void placeTower();
 };
 #endif // _TOUCHLAYER_H_

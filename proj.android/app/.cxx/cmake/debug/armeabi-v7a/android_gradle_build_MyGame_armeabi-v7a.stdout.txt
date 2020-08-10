@@ -1,2 +1,20 @@
-ninja: Entering directory `/Users/imac_vtca/Documents/GitHub/TowersDefend/proj.android/app/.cxx/cmake/debug/armeabi-v7a'
-ninja: no work to do.
+ninja: Entering directory `C:\Users\hoang\Documents\HoangDat_Homework\TowersDefend\proj.android\app\.cxx\cmake\debug\armeabi-v7a'
+[1/12] Building CXX object CMakeFiles/MyGame.dir/Classes/HelloWorldScene.cpp.o
+[2/12] Building CXX object CMakeFiles/MyGame.dir/Classes/AppDelegate.cpp.o
+[3/12] Building CXX object CMakeFiles/MyGame.dir/Classes/GameScene.cpp.o
+[4/12] Building CXX object CMakeFiles/MyGame.dir/Classes/SceneMgr.cpp.o
+[5/12] Building CXX object CMakeFiles/MyGame.dir/Classes/TouchLayer.cpp.o
+[6/12] Building CXX object CMakeFiles/MyGame.dir/Classes/MyMap.cpp.o
+../../../../../../Classes/MyMap.cpp:80:5: warning: control may reach end of non-void lambda [-Wreturn-type]
+    };
+    ^
+../../../../../../Classes/MyMap.cpp:83:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+2 warnings generated.
+[7/12] Building CXX object CMakeFiles/MyGame.dir/Classes/MenuScene.cpp.o
+[8/12] Building CXX object CMakeFiles/MyGame.dir/proj.android/app/jni/hellocpp/main.cpp.o
+[9/12] Building CXX object CMakeFiles/MyGame.dir/Classes/Level.cpp.o
+[10/12] Building CXX object CMakeFiles/MyGame.dir/Classes/SettingScene.cpp.o
+[11/12] Building CXX object CMakeFiles/MyGame.dir/Classes/CreditScene.cpp.o
+[12/12] Linking CXX shared library ..\..\..\..\build\intermediates\cmake\debug\obj\armeabi-v7a\libMyGame.so

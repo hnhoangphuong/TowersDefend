@@ -10,7 +10,7 @@ public:
     void goToGameScene(cocos2d::Ref* pSender);
     void goToSettingScene(cocos2d::Ref* pSender);
     void goToCreditScene(cocos2d::Ref* pSender);
-
+    bool touchLocation(cocos2d::Touch* touch,cocos2d::Event* event);
     virtual bool init();
 
     // a selector callback

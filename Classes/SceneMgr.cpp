@@ -41,6 +41,8 @@ CScene* SceneManager::createScene(int screenId)
 
 	case EScene::CREDIT_SCENE:
 		return CreditScene::createScene();
+	case EScene::LEVEL_SCENE:
+		return Level::createScene();
 	/*case EScene::GAMEOVER_SCENE:
 		return GameoverScene::createScene();
 

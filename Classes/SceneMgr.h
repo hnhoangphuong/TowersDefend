@@ -8,6 +8,7 @@
 #include "MenuScene.h"
 #include "SettingScene.h"
 #include "CreditScene.h"
+#include "Level.h"
 
 
 enum EScene
@@ -19,6 +20,7 @@ enum EScene
 	CREDIT_SCENE,
 	UI_SCENE,
 	GAMEOVER_SCENE,
+	LEVEL_SCENE,
 };
 
 class SceneManager
