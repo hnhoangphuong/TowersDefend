@@ -49,16 +49,9 @@ bool CreditScene::init()
                                             "UI/button_close.png",
                                             [&](Ref* sender){menuCloseCallback(sender);
                                         });
-    if (btn_close == nullptr || btn_close->getContentSize().width <= 0 || btn_close->getContentSize().height <= 0)
-    {
-        problemLoading("'CloseNormal.png' and 'CloseSelected.png'");
-    }
-    else
-    {
-        float x = origin.x + visibleSize.width - btn_close->getContentSize().width/2;
-        float y = origin.y + btn_close->getContentSize().height/2;
-        btn_close->setPosition(Vec2(x,y));
-    }
+   
+    btn_close->setPosition(Vec2(1355,870));
+    
     MenuItems.pushBack(btn_close);
     MenuItems.pushBack(btn_facebook);
     
